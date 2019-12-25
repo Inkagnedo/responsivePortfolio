@@ -29,8 +29,41 @@ div.navbar-nav{
     margin-bottom: 300px;
     margin-left: 80px;
     height: 400px;
-    width: 630px;
+    width: 590px;
 }
+
+* {box-sizing: border-box}
+
+.container1{
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+.image {
+    display: block;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin-left: 170px;
+}
+
+.overlay {
+    position: absolute;
+    margin-left: 170px;
+    bottom: 0;
+    background: #4aaaa5;
+    width: 250px;
+    transition: .5s ease;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container1:hover .overlay {
+    opacity: 1;
+}  
 
 h2 {
     color: #4aaaa5;
@@ -41,7 +74,7 @@ h2 {
     border-color: #777777;
 }
 
-img {
+.image1 {
     height: 150px;
     width: 220px;
     padding: 10px 20px 10px 20px;
@@ -50,8 +83,10 @@ img {
 }
 
 p {
-    font-size: 15px;
+    font-size: 20px;
     color: #777777;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 form {
@@ -60,7 +95,7 @@ form {
 
 .form-control {
     height: 20px;
-    width: 584px;
+    width: 540px;
 }
 
 #exampleFormControlTextarea1 {
@@ -75,5 +110,12 @@ form {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     padding-top: 30px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 30px;
+    width: 70px;
 }
 
