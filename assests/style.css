@@ -26,9 +26,18 @@ div.navbar-nav{
 .container{
     background-color: #ffffff;
     margin-top: 50px;
-    margin-bottom: 300px;
+    margin-bottom: 83px;
     margin-left: 80px;
     height: 400px;
+    width: 590px;
+}
+
+.container2{
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 83px;
+    margin-left: 80px;
+    height: 1400px;
     width: 590px;
 }
 
@@ -109,7 +118,8 @@ form {
     color: #ffffff;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    padding-top: 30px;
+    padding-top: 9px;
+    bottom: 0;
 }
 
 button {
